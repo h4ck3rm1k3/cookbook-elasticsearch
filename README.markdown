@@ -1,3 +1,19 @@
+Installation
+------------
+
+   sudo gem install fog
+   sudo gem install ansi
+
+Different rake targets:
+
+   rake bootstrap  # Bootstrap an instance
+   rake create     # Create, bootstrap and configure an instance in EC2
+   rake destroy    # Terminate an EC2 instance
+   rake provision  # (Re-)provision an instance
+
+Otherwise use chef in local mode
+    git@github.com:chef/chef.git
+
 Description
 -----------
 
